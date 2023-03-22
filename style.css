@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .header  {
     background-color: #1f2937;
     color: white;
@@ -5,7 +9,7 @@
     font-weight: 800;
     display: flex;
     justify-content: space-between;
-    padding: 0px 100px 0px 100px;
+    padding: 0px 200px 100px 200px;
 }
 
 .left-logo {
@@ -16,9 +20,56 @@
     display: inline-flex;
     list-style: none;
     gap: 16px;
+    align-self: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.introduction {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 0px 200px 100px 200px;
+    gap: 50px;
 }
 
 
-.link {
+.left-intro,
+.right-intro {
+    width: 400px;
+}
+
+.left-intro-title {
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.left-intro-text {
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+.left-intro-button {
+    font-size: 18px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 32px;
+}
+
+.right-intro {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 18px;
 }
+
