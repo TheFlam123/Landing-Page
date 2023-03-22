@@ -9,7 +9,7 @@ body {
     font-weight: 800;
     display: flex;
     justify-content: space-between;
-    padding: 0px 200px 100px 200px;
+    padding: 0px 10% 100px 10%;
 }
 
 .left-logo {
@@ -35,7 +35,7 @@ a {
     color: white;
     display: flex;
     justify-content: center;
-    padding: 0px 200px 100px 200px;
+    padding: 0px 10% 100px 10%;
     gap: 50px;
 }
 
@@ -72,5 +72,6 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 18px;
+    
 }
 
