@@ -63,6 +63,7 @@ a {
     border: none;
     border-radius: 8px;
     padding: 6px 32px;
+    cursor: pointer;
 }
 
 .right-intro {
