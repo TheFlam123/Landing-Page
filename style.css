@@ -1,0 +1,17 @@
+.header  {
+    background-color: #1f2937;
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    display: flex; 
+}
+
+li {
+    display: inline-flex;
+    list-style: none;
+}
+
+
+.link {
+    font-size: 18px;
+}
