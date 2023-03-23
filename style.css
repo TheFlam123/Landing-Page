@@ -72,6 +72,47 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    
+}
+
+.body-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10% 100px 10%;
+}
+
+.body-one-title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 50px
+}
+
+.images {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    gap: 60px;
+}
+
+.image-one,
+.image-two,
+.image-three,
+.image-four {
+    display: flex;
+    border: #3882F6 solid 4px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.images-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-text {
+    width: 200px;
+    text-align: center;
 }
 
