@@ -116,3 +116,31 @@ a {
     text-align: center;
 }
 
+.body-two {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 10% 100px 10%;
+}
+
+.quotation {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100 ;
+    color: black;
+}
+
+.thor{
+    align-self: flex-end;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+
+
