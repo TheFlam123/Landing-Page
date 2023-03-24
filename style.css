@@ -131,15 +131,15 @@ a {
 }
 
 .quote {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 36px;
-    font-weight: 100 ;
-    color: black;
+    font-style: italic;
 }
 
-.thor{
+.thor {
     align-self: flex-end;
     font-size: 26px;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 
