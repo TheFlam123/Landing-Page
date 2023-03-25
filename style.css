@@ -16,6 +16,11 @@ body {
     align-self: center;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .right-links {
     display: inline-flex;
     list-style: none;
@@ -23,6 +28,7 @@ body {
     align-self: center;
     font-size: 18px;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .introduction {
@@ -177,6 +183,7 @@ body {
     border-radius: 8px;
     font-size: 20px;
     padding: 10px 30px;
+    cursor: pointer;
 }
 
 .footer {
