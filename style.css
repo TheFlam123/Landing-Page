@@ -101,6 +101,7 @@ a {
 .image-three,
 .image-four {
     display: flex;
+    flex-shrink: 1;
     border: #3882F6 solid 4px;
     width: 200px;
     height: 200px;
