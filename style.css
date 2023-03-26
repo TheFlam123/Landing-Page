@@ -14,6 +14,8 @@ body {
 
 .left-logo {
     align-self: center;
+    width: 100px;
+    height: 50px;
 }
 
 a {
@@ -101,7 +103,7 @@ a {
 .image-three,
 .image-four {
     display: flex;
-    flex-shrink: 1;
+    flex: 0 1 auto;
     border: #3882F6 solid 4px;
     width: 200px;
     height: 200px;
@@ -110,6 +112,7 @@ a {
 
 .images-container {
     display: flex;
+    flex: 0 1;
     flex-direction: column;
 }
 
