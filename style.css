@@ -98,10 +98,7 @@ a {
     gap: 60px;
 }
 
-.image-one,
-.image-two,
-.image-three,
-.image-four {
+.photo {
     display: flex;
     flex: 0 1 auto;
     border: #3882F6 solid 4px;
